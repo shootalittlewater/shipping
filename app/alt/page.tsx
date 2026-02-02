@@ -152,7 +152,7 @@ export default function ShippingDashboard() {
             </thead>
             <tbody className="divide-y divide-zinc-800 text-sm">
               {shipments.map((ship) => (
-                <tr key={ship.id} className="hover:bg-zinc-800/30 transition-colors">
+                <tr key={ship.id} className="hover:bg-zinc-800/50 transition-colors">
                   <td className="p-4 font-mono text-blue-400">{ship.id}</td>
                   <td className="p-4">{ship.destination}</td>
                   <td className="p-4">
