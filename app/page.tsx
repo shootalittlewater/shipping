@@ -40,7 +40,7 @@ export default function GenericComponentPage() {
   return (
     <div className="min-h-screen bg-background p-8 space-y-8">
       
-      {/* 1. Menubar: Typically for App-level actions */}
+  {/* 1. Menubar: Typically for App-level actions */}
       <header className="border-b pb-4">
         <Menubar className="w-fit">
           <MenubarMenu>
@@ -60,7 +60,7 @@ export default function GenericComponentPage() {
             </MenubarContent>
           </MenubarMenu>
         </Menubar>
-      </header>
+      </header>    
 
       {/* 2. Navigation Menu: Main Site Navigation */}
       <nav className="flex justify-center">
